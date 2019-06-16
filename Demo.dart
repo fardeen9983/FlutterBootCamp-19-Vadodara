@@ -105,6 +105,18 @@ main(List<String> args) {
     print("$i");
     i++;
   } while (i < 10);
+
+  //Break
+  for (var i = 0; i < 10; i++) {
+    if (i == 5) break;
+    print("$i");
+  }
+
+  //Continue
+    for (var i = 0; i < 10; i++) {
+    if (i == 5) continue;
+    print("$i");
+  }
 }
 
 //Class
